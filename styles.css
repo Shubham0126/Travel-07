@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,600&family=Kalam&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #DDDDDD;
+}
+.navbar-nav a{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    margin: 0px 20px;
+    color: white;
+  }
+  .link:hover{
+    color: #ff3841!important;
+  }
+  .active-link{
+    color: #ff3841!important;
+  }
+  .nav-item{
+    margin: 5px 20px;
+  }
+  .nav-item button{
+    padding: 10px 80px;
+    font-size: 1.6rem;
+  }
+  .nav-pills .nav-link{
+    color: #ff3841!important;
+  }
+
+  .nav-pills .nav-link.active{
+    background-color:#ff3841;
+    color: white!important;
+  }
+
+  .carousel .carousel-item {
+    height: 90vh;
+  }
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    background-position: center center;
+    filter: brightness(40%);
+    top: 0;
+    left: 0;
+    min-height: 90vh;
+}
+.carousel-caption{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-caption h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5rem;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+  }
+  .btn-primary{
+    color: #ff3841!important;
+    background-color: transparent;
+    border-color: #ff3841!important;
+  }
+  .btn-primary:hover{
+    color: white!important;
+    background-color: #ff3841!important;
+    border-color: #ff3841!important;
+  }
+  .btn-outline-primary{
+    color: #ff3841!important;
+    background-color: transparent;
+    border-color: #ff3841!important;
+  }
+  .btn-outline-primary:hover{
+    color: white!important;
+    background-color: #ff3841!important;
+    border-color: #ff3841!important;
+  }
+.text-primary{
+    font-family: 'Kalam', cursive;
+    color: #ff3841!important;
+}
+
+  .back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 11;
+  }
+
+  .place-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .place-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transition: .5s;
+  }
+  
+  .place-carousel .owl-dot.active {
+    width: 40px;
+    background: #ff3841;
+  }
+
+
+
+@media (min-width: 768px) {
+    .booking {
+      position: relative;
+      margin-top: -160px !important;
+      z-index: 1;
+    }
+   
+  }

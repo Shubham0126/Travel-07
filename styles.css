@@ -116,8 +116,23 @@ body{
     width: 40px;
     background: #ff3841;
   }
+  .page-header{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)),url('img/Carousel-3.webp') no-repeat center center;
+    
+  }
 
+  .contact{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(img/contact.webp)
+    no-repeat center center;
+  }
+  .bg-primary{
+    background-color: #ff3841!important;
+}
 
+.bg-registration {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Carousel-2.webp), no-repeat center center;
+  background-size: cover;
+}
 
 @media (min-width: 768px) {
     .booking {
@@ -126,4 +141,14 @@ body{
       z-index: 1;
     }
    
+  }
+  @media (min-width: 992px) {
+    .about-text {
+      margin-left: -120px;
+      
+    }
+    .contact-form{
+      margin-top: -500px;
+      margin-left: 35px;
+    }
   }

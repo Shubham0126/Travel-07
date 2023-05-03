@@ -25,7 +25,7 @@ body{
     margin: 5px 20px;
   }
   .nav-item button{
-    padding: 10px 80px;
+    padding: 10px 20px;
     font-size: 1.6rem;
   }
   .nav-pills .nav-link{
@@ -132,6 +132,13 @@ body{
 .bg-registration {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Carousel-2.webp), no-repeat center center;
   background-size: cover;
+}
+.tour img{
+  filter: brightness(40%);
+}
+
+.card-img-overlay{
+  top: auto;
 }
 
 @media (min-width: 768px) {

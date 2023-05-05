@@ -141,6 +141,10 @@ body{
   top: auto;
 }
 
+.form-control , .form-select{
+  background-color: #c5c5c5;
+}
+
 @media (min-width: 768px) {
     .booking {
       position: relative;
